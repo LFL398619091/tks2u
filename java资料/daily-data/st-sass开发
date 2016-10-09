@@ -6,3 +6,6 @@ sublime text3安装sass（基于mac系统）
 ->输入sass build，选择对应版本安装
 4.Tools->Build System ->SASS(如果是product环境，选择SASS-Compressed)
 5.command+b,执行编译，将.scss文件->.css文件
+6.解决scss无法编辑中文问题 
+    a>vim /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb
+    b>在require最后新增一行代码 Encoding.default_external = Encoding.find('utf-8');
