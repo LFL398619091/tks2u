@@ -1,0 +1,8 @@
+sublime text3安装sass（基于mac系统）
+1.安装ruby
+2.安装sass  sudo gem install sass
+3.st command+shift+p->install package->进入package control面板
+->输入sass，选择对应版本安装
+->输入sass build，选择对应版本安装
+4.Tools->Build System ->SASS(如果是product环境，选择SASS-Compressed)
+5.command+b,执行编译，将.scss文件->.css文件
